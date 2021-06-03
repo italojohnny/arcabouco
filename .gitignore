@@ -1,3 +1,6 @@
 *
 !.gitignore
 !readme.md
+
+!*/
+!/holy_bible/**
