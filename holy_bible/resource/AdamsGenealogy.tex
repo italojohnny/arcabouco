@@ -1,0 +1,22 @@
+\begin{figure}[h]
+    \centering
+    \begin{dot2tex}[graphstyle={scale=0.5}]
+digraph AdamsGenealogy {
+    node[shape=none];
+    edge[arrowhead=none];
+
+    sEnoch[label=Enoch]
+    sLamech[label=Lamech]
+
+    Adam -> {Cain; Abel; Seth}
+
+    Cain -> Enoch -> Irad -> Mehujael -> Lamech
+
+    Seth -> Enosh -> Kenan -> Mahalalel -> Jared -> sEnoch
+
+    sEnoch -> Methuselah -> sLamech -> Noah
+
+    Noah -> {Shem; Ham; Japheth}
+}
+    \end{dot2tex}
+\end{figure}
